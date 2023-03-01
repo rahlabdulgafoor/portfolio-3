@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="Header" id="header">
+        <nav>
+            <h1 >Port<span>folio</span></h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li ><a href="#contact">Here me</a></li>
+                <i class="fa-solid fa-circle-xmark ic " onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars ic" onclick="openmenu()"></i>
+        </nav>
+        <div class="Me">
+            <div id="intro">
+                <h3>Hi,There!</h3>
+                <h1>I'm <span>Rahla NA</span></h1>
+                <p>I'm FRONT-END DEVELOPER .</p>
+            </div>
+            <div id="img">
+                
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+    
+<!------------ About ----------------->
+    <section id="about">
+
+        <div class="container1">
+            <div class="row">
+                <div class="img2">
+                    <img src="images/rahla2.jpeg" alt="">
+                </div>
+                <div class="about-me">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi there,I'm Front End Developer and Web Designer.I enjoy taking complex problems & turning them into simple.I also love the structure of coding and to write efficient code, Whether it be HTML,CSS or JavaScript.</p>
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>rahilana88@gmail.com</p>
+                        </div>
+                        <div class="email">
+                            <i class="fa-solid fa-phone"></i>
+                            <p>7306681608</p>
+                        </div>
+                        <div class="email">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>Ernakulam</p>
+                        </div>
+                        <button class="btn"><a href="RAHLA NA CV2.pdf" download="rahla cv">Download CV</a></button>
+                    
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <div class="container">
+            <div class="col-1">
+                <i class="fa-brands fa-html5"></i>
+                <h3>HTML</h3>
+                
+                
+                <p>I have strong knowledge about HTML.I Can make templates using HTML.</p>
+            </div>
+            <div class="col-1">
+                <i class="fa-brands fa-css3-alt"></i>
+                <h3>CSS</h3>
+                <p>I have strong knowledge on CSS to style HTML.</p>
+            </div>
+            <div class="col-1">
+                <i class="fa-brands fa-js"></i>
+                <h3>Java script</h3>
+                <p>I have good knowledge on JavaScript.</p>
+            </div>
+        </div>
+
+
+                
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h1>Here Me</h1>
+        <div class="container3">
+            <div class="nil" ></div>
+
+            
+            <div class="icon">
+                <a href="https://www.facebook.com/public/Search"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+            <div class="icon">
+                <a href="https://www.instagram.com/rahlabdul/"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/rahla-na/"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="icon">
+               <a href="https://twitter.com/Rahlana20"> <i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <div class="icon">
+                <a href="https://github.com/rahlabdulgafoor"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="nil"></div>
+            
+        </div>
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+         <p> &copy; My Portfolio Website 2023,All Rights Reserved &reg; Rahla NA </p>
+         <div class="up-arrow">
+            <a href="#header"><i class="fa-solid fa-arrow-up-long"></i></a>
+         </div>
+    </footer>
+    <script>
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-250px"
+        }
+    </script>
+
+
+
+</body>
+
+</html>
